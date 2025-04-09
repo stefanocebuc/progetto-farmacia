@@ -126,8 +126,6 @@ switch ($action) {
                     $codice_atc_err = "Il principio attivo deve contenere almeno 3 caratteri.";
                 } elseif (!preg_match("/[a-zA-ZÀ-ÖØ-öø-ÿ\s'-].+/", $codice_atc)) {
                     $codice_atc_err =  "Il principio attivo contiene caratteri non validi.";
-                } else {
-                    $codice_atc;
                 }
                 //FINE CONTROLLO INPUT UPDATE
 
